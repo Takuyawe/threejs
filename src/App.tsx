@@ -1,11 +1,15 @@
 import "./App.scss";
 import ThreeSample from "./pages/ThreeSample";
 import ThreeFiber from "./pages/ThreeFiber";
-import { Canvas } from "@react-three/fiber";
+import Scene from "./soccer/Scene";
 import { Cube } from "./pages/Cube";
 
 const App = () => {
-  return <ThreeFiber />;
+  return (
+    <div style={{ width: "100vw", height: "100vh" }}>
+      <Scene />
+    </div>
+  );
 };
 
 export default App;

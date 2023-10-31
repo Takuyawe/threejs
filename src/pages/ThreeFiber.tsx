@@ -14,7 +14,8 @@ const ThreeFiber = () => {
         <Rig />
         <OrbitControls />
         <fog attach="fog" color={"#fff"} near={1} far={20} />
-        <Cube position={[-1.2, 0, 0]} />
+
+        {/* <Cube position={[-1.2, 0, 0]} />
         <Cube position={[0, 1, -5]} />
         <Text
           position={[-3, 2, 0]}
@@ -23,7 +24,7 @@ const ThreeFiber = () => {
           color={"#222"}
         >
           Hello World
-        </Text>
+        </Text> */}
         {/* <Knot /> */}
       </Canvas>
     </div>
